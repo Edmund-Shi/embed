@@ -1,0 +1,4 @@
+[Application]
+ApplicationPath=F:\AppData\Embeded System\FinalProject\SX12xxDrivers\obj\sx12xxDrivers
+LoaderTool=ARM
+Target=ARM

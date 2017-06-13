@@ -41,7 +41,7 @@
 /*!
  * Frequency hopping frequencies table
  */
-const int32_t HoppingFrequencies[] =      //ÉèÖÃÌøÆµ
+const int32_t HoppingFrequencies[] =      //è®¾ç½®è·³é¢‘
 {
     916500000,
     923500000,
@@ -99,20 +99,20 @@ const int32_t HoppingFrequencies[] =      //ÉèÖÃÌøÆµ
 // Default settings
 tLoRaSettings LoRaSettings =
 {
-    870000000,        // RFFrequency ÊÕ·¢ÆµÂÊ
-    20,               // Power ·¢Éä¹¦ÂÊ
-    9,                // ´ø¿íSignalBw [0: 7.8kHz, 1: 10.4 kHz, 2: 15.6 kHz, 3: 20.8 kHz, 4: 31.2 kHz,
+    870000000,        // RFFrequency æ”¶å‘é¢‘ç‡
+    20,               // Power å‘å°„åŠŸç‡
+    9,                // å¸¦å®½SignalBw [0: 7.8kHz, 1: 10.4 kHz, 2: 15.6 kHz, 3: 20.8 kHz, 4: 31.2 kHz,
                       // 5: 41.6 kHz, 6: 62.5 kHz, 7: 125 kHz, 8: 250 kHz, 9: 500 kHz, other: Reserved]
-    7,                // À©ÆµÒò×ÓSpreadingFactor [6: 64, 7: 128, 8: 256, 9: 512, 10: 1024, 11: 2048, 12: 4096  chips]
-    2,                // Ñ­»·¾À´í±àÂëErrorCoding [1: 4/5, 2: 4/6, 3: 4/7, 4: 4/8]
-    true,             // CRCĞ£ÑéCrcOn [0: OFF, 1: ON]
-    false,            // ĞòÍ·Ä£Ê½ImplicitHeaderOn [0: OFF, 1: ON]
-    1,                // ½ÓÊÕÄ£Ê½ÖĞµÄsingleÄ£Ê½¿ª¹Ø  0´ú±ícontinueÄ£Ê½ RxSingleOn [0: Continuous, 1 Single]
-    0,                // ÌøÆµ¿ª¹Ø FreqHopOn [0: OFF, 1: ON] 
-    4,                // ÌøÆµÖÜÆÚ HopPeriod Hops every frequency hopping period symbols 
-    100,              // TxPacketTimeout·¢ËÍ³¬Ê±Ê±¼ä
-    100,              // RxPacketTimeout½ÓÊÕ³¬Ê±Ê±¼ä
-    128,              // PayloadLength (used for implicit header mode)¸ºÔØÊı¾İ³¤¶È
+    7,                // æ‰©é¢‘å› å­SpreadingFactor [6: 64, 7: 128, 8: 256, 9: 512, 10: 1024, 11: 2048, 12: 4096  chips]
+    2,                // å¾ªç¯çº é”™ç¼–ç ErrorCoding [1: 4/5, 2: 4/6, 3: 4/7, 4: 4/8]
+    true,             // CRCæ ¡éªŒCrcOn [0: OFF, 1: ON]
+    false,            // åºå¤´æ¨¡å¼ImplicitHeaderOn [0: OFF, 1: ON]
+    1,                // æ¥æ”¶æ¨¡å¼ä¸­çš„singleæ¨¡å¼å¼€å…³  0ä»£è¡¨continueæ¨¡å¼ RxSingleOn [0: Continuous, 1 Single]
+    0,                // è·³é¢‘å¼€å…³ FreqHopOn [0: OFF, 1: ON] 
+    4,                // è·³é¢‘å‘¨æœŸ HopPeriod Hops every frequency hopping period symbols 
+    100,              // TxPacketTimeoutå‘é€è¶…æ—¶æ—¶é—´
+    100,              // RxPacketTimeoutæ¥æ”¶è¶…æ—¶æ—¶é—´
+    128,              // PayloadLength (used for implicit header mode)è´Ÿè½½æ•°æ®é•¿åº¦
 };
 
 /*!

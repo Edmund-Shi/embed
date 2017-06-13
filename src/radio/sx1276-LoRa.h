@@ -42,6 +42,7 @@ typedef struct sLoRaSettings
     uint8_t PayloadLength;
 }tLoRaSettings;
 
+
 /*!
  * RF packet definition
  */

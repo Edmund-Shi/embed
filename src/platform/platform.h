@@ -26,16 +26,16 @@
 /*!
  * Platform definition
  */
-#define Bleeper                                     3
-#define SX1243ska                                   2
+//#define Bleeper                                     3
+// #define SX1243ska                                   2
 #define SX12xxEiger                                 1
-#define SX12000DVK                                  0
+// #define SX12000DVK                                  0
 
 /*!
  * Platform choice. Please uncoment the PLATFORM define and choose your platform
  * or add/change the PLATFORM definition on the compiler Defines option
  */
-//#define PLATFORM                                    SX12xxEiger
+#define PLATFORM                                    SX12xxEiger
 
 #if( PLATFORM == SX12xxEiger )
 /*!
